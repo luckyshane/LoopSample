@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="40dp"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp">
+    <Button android:id="@+id/handler_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="使用Handler实现倒计时"
+        android:textAllCaps="false"/>
+    <Button android:id="@+id/timer_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="使用Timer实现倒计时"
+        android:textAllCaps="false"
+        android:layout_marginTop="20dp"/>
+    <Button android:id="@+id/count_down_timer_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="使用CountDownTimer实现倒计时"
+        android:textAllCaps="false"
+        android:layout_marginTop="20dp"/>
+    <Button android:id="@+id/rx_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="使用RxJava实现倒计时"
+        android:textAllCaps="false"
+        android:layout_marginTop="20dp"/>
+    <Button android:id="@+id/rx_loop_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="使用RxJava实现轮询网络请求"
+        android:textAllCaps="false"
+        android:layout_marginTop="20dp"/>
+
+</LinearLayout>
